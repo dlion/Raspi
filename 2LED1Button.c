@@ -21,8 +21,9 @@ int main (void)
     //Using pin 0 and 1 to write output (pin 11 and 12 on the raspi)
     int pin0_out = 0;
     int pin1_out = 1;
+    
      //Starting Setup
-     if(wiringPiSetup() == -1)
+    if(wiringPiSetup() == -1)
         exit(1);
     //Set pin 8 to input
     pinMode(pin8_in,INPUT);
