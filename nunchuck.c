@@ -34,7 +34,7 @@
 
 int comunica(char*, int, int);
 
-int main() 
+int main(void) 
 {
     char buffer_read[6], //Buffer ricezione byte
          buffer_init[] = { 0xF0, 0x55 }, //Sequenza di init
